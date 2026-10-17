@@ -1,3 +1,9 @@
-import falaOi from './app.js';
+import app from './app.js';
 
-falaOi();
+const port = 3001;
+
+app.listen(port, () => {
+    console.log();
+    console.log(`Servidor rodando na porta ${port}`);
+    console.log(`CTRL + Clique para https://localhost:${port}`);
+});
