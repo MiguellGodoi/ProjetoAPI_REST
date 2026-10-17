@@ -1,5 +1,29 @@
 {
-  "dependencies": {
-    "express": "^5.3.0"
+  "name": "api_rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguellGodoi/ProjetoAPI_REST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MiguellGodoi/ProjetoAPI_REST/issues"
+  },
+  "homepage": "https://github.com/MiguellGodoi/ProjetoAPI_REST#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "nodemon": "^1.19.4",
+    "sucrase": "^3.35.1"
   }
 }
