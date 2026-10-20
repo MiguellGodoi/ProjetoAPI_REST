@@ -1,5 +1,6 @@
+
 import express from 'express';
-import router from './routes/homeRoutes.js';
+import homeRoutes from './src/routes/homeRoutes';
 
 class App {
     constructor() {
@@ -16,6 +17,6 @@ class App {
     routes() {
         this.app.use('/', homeRoutes);
     }
-};
+}
 
 export default new App().app;

@@ -5,5 +5,5 @@ const port = 3001;
 app.listen(port, () => {
     console.log();
     console.log(`Servidor rodando na porta ${port}`);
-    console.log(`CTRL + Clique para https://localhost:${port}`);
+    console.log(`CTRL + Clique para http://localhost:${port}`);
 });
